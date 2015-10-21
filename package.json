@@ -4,7 +4,8 @@
 	"description":"hello world angular style",
 	"author":"Tulara <tulara.webster@gmail.com>",
 	"dependencies": {
-		"angular": "^1.4.0"
+		"angular": "^1.4.0",
+		"font-awesome":"4.4.0"
 	},
 	"devDependencies":{
 		"gulp":"3.9.0"
