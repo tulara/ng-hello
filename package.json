@@ -4,10 +4,10 @@
 	"description":"hello world angular style",
 	"author":"Tulara <tulara.webster@gmail.com>",
 	"dependencies": {
-		"angular": "^1.4.0",
-		"gulp":"3.9.0"
+		"angular": "^1.4.0"
 	},
 	"devDependencies":{
+		"gulp":"3.9.0"
 	},
 	"repository" : {
 		"type" : "git",
