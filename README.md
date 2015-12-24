@@ -1,5 +1,17 @@
 All the things about running the app
 
+
+TO RUN LOCALLY  
+
+Open chrome via command line with following arguments to avoid cross origin errors on your local file system
+
+```
+open -a 'Google Chrome' --args -allow-file-access-from-files  
+```
+  
+Then just open index.html in the browser.
+
+
 quick stack:
 - angular
 - gulp
@@ -17,3 +29,4 @@ $ npm install
 ```
 $ npm install --global gulp
 ```
+
