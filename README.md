@@ -19,12 +19,13 @@ have installed:
 - node.js
 
 - npm
-```
-$ npm install
-```
 
 - gulp
 ```
 $ npm install --global gulp
 ```
+
+### DEPLOYMENT
+
+Heroku dynamically assigns your app a port, so you can't set the port to a fixed number. Heroku adds the port to the env, so you can pull it from there
 
