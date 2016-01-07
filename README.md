@@ -1,15 +1,13 @@
 All the things about running the app
 
 
-TO RUN LOCALLY  
+### TO RUN LOCALLY  
 
 Open chrome via command line with following arguments to avoid cross origin errors on your local file system
-
-```
-open -a 'Google Chrome' --args -allow-file-access-from-files  
-```
   
-Then just open index.html in the browser.
+1. `npm install` 
+2. `npm start`
+3. `open -a 'Google Chrome' --args -allow-file-access-from-files` and go to localhost:8080
 
 
 quick stack:
