@@ -1,3 +1,3 @@
 app.controller('HelloController',['$scope', function($scope){
- $scope.message = "World";
+ $scope.message = "Biara";
 }]);
