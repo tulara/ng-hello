@@ -4,6 +4,11 @@ app.directive('ngHello', function(){
 		scope: {
 			name: '='
 		},
-		templateUrl:'js/directives/ngHello.html'
+		templateUrl:'js/directives/ngHello.html',
+		link: function changeColour(scope, elem, attrs){
+			elem.bind('click', function() {
+        		elem.toggleClass("highlight"); 
+      		});
+		}
 	};
 });

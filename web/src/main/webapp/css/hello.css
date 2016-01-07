@@ -3,7 +3,17 @@
   src: url('fonts/helloScript.ttf')  format('truetype');
 }
 
-div.hello {
+.hello {
 	font-family: 'HelloScript', sans-serif;
 	font-size: 60px;
+}
+
+.clickme {
+  	padding: 3px;
+  	margin: 10px;
+    cursor:pointer;
+}
+
+.highlight {
+  color: #ff66ff;
 }
